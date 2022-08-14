@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.mainBox{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 37.5vw;
+  margin-right: 37.5vw;
+  margin-bottom: 5vh;
+  margin-top: 10%;
+  height: 25vw;
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 25vw;
+}
+
+.nameBox{
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-left: 37.5vw;
+  margin-right: 37.5vw;  
+  width: 25vw;
+  height: 2vh;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
